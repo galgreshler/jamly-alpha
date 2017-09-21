@@ -1,0 +1,35 @@
+{
+	"name": "Jamly",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"native-base": "^2.3.2",
+		"query-string": "^5.0.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.3",
+		"react-native-elements": "^0.17.0",
+		"react-native-loading-spinner-overlay": "^0.5.2",
+		"react-native-vector-icons": "^4.4.0",
+		"react-navigation": "^1.0.0-beta.11",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2",
+		"redux-logger": "^3.0.6",
+		"redux-saga": "^0.15.6",
+		"redux-storage": "^4.1.2",
+		"redux-storage-decorator-filter": "^1.1.8",
+		"redux-storage-engine-reactnativeasyncstorage": "^1.0.5"
+	},
+	"devDependencies": {
+		"babel-jest": "21.0.2",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.1.0",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
